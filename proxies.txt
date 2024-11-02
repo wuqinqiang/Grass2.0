@@ -1,2 +1,1 @@
-socks5://ff6deff2:97ff204e@d8bbaad3.singapore.socks5.ltd:3257
-socks5://xjfjbecs:jj9ffx9kz9de@119.42.39.65:5693
+
