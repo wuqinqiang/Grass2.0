@@ -32,6 +32,8 @@ socks5://user:password@host:port
 3. 克隆此仓库。你可以使用以下命令：
    ```shell
    git clone https://github.com/GzGod/Grass2.0
+   如果这个方式不行那就直接把这个库保存为压缩包 右上角code里可以看到
+   然后解压之后把路径复制到powershell里输入"cd 你的路径"
    ```
 
 4. 进入 grassxd 文件夹：
