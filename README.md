@@ -31,7 +31,7 @@ socks5://user:password@host:port
 
 3. 克隆此仓库。你可以使用以下命令：
    ```shell
-   git clone https://github.com/akasakaid/grassxd.git
+   git clone https://github.com/GzGod/Grass
    ```
 
 4. 进入 grassxd 文件夹：
