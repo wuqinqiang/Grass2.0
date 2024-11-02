@@ -2,7 +2,7 @@
 
 # 注册
 
-没有注册的可以支持一下我，走我的邀请链接谢谢：[点击这里]([https://app.getgrass.io/register/?referralCode=9hUjGgcGTPW5Aqn](https://app.getgrass.io/register/?referralCode=W2P80MXsTm9LaC6))
+没有注册的可以支持一下我，走我的邀请链接谢谢：[点击这里](https://app.getgrass.io/register/?referralCode=W2P80MXsTm9LaC6)
 
 # 警告和注意事项
 
