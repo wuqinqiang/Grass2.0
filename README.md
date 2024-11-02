@@ -36,9 +36,9 @@ socks5://user:password@host:port
    然后解压之后把路径复制到powershell里输入"cd 你的路径"
    ```
 
-4. 进入 grassxd 文件夹：
+4. 进入 grass 文件夹：
    ```shell
-   cd grassxd
+   cd grass2.0
    ```
 
 5. 然后安装所需的库：
