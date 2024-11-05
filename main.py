@@ -124,6 +124,12 @@ async def main():
     arg.add_argument(
         "--proxy", "-P", default="proxies.txt", help="Custom proxy input file "
     )
+    arg.add_argument(
+        "--token", "-t", default="token.txt", help="Custom token input file "
+    )
+    arg.add_argument(
+        "--userid", "-u", default="userid.txt", help="Custom userid input file "
+    )
     args = arg.parse_args()
     os.system("cls" if os.name == "nt" else "clear")
     print(
@@ -135,8 +141,16 @@ async def main():
     {green}Get some grass !
           """
     )
-    token = open("token.txt", "r").read()
-    userid = open("userid.txt", "r").read()
+    if not os.path.exists(args.token):
+            print(f"{red}{args.token} 未找到，请确保 {args.token} 可用！")
+            exit()
+    token = open(args.token, "r").read().splitlines()
+
+    if not os.path.exists(args.userid):
+            print(f"{red}{args.userid} 未找到，请确保 {args.userid} 可用！")
+            exit()
+    userid = open(args.userid, "r").read().splitlines()
+
     if len(userid) <= 0:
         print(f"{red}错误 : {white}请先输入您的用户ID!")
         exit()
